@@ -46,7 +46,7 @@ function App() {
       <div className="w-full 2xl:w-9/12 flex flex-col">
         <div className="container-navigation flex items-center justify-between">
           <div className="container-logo-name-protocol flex items-center">
-            <Avatar className="w-32 h-32">
+            <Avatar className="w-20 md:w-32 h-20 md:h-32">
               <AvatarImage src={logoProtocol} />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
@@ -115,10 +115,10 @@ function App() {
         <div className="container-home flex justify-center mt-40">
           <div className="container-description w-full md:w-2/5">
             <div className="container-money">
-              <h1 className="text-5xl md:text-7xl font-poppins font-bold">
+              <h1 className="text-4xl md:text-7xl font-poppins font-bold">
                 Buy $STAMP
               </h1>
-              <h1 className="text-5xl md:text-7xl font-poppins font-bold">
+              <h1 className="text-4xl md:text-7xl font-poppins font-bold">
                 Earn $AVAX
               </h1>
             </div>
