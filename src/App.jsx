@@ -303,7 +303,7 @@ function App() {
                     <img className="mr-2 h-4 w-4" src={twitter}></img>
 
                     <a
-                      href="https://www.rabby.io/"
+                      href="https://twitter.com/stampProtocol"
                       target="_blank"
                       className="text-yellow-400"
                     >
@@ -313,7 +313,7 @@ function App() {
                   <Button className="font-poppins ml-10" variant="secondary">
                     <img className="mr-2 h-4 w-4" src={telegram}></img>
                     <a
-                      href="https://www.rabby.io/"
+                      href="https://t.me/+lHSQoijTkSZjMWI0"
                       target="_blank"
                       className="text-yellow-400"
                     >
