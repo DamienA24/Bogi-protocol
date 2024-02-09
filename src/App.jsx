@@ -46,7 +46,7 @@ function App() {
       <div className="w-full 2xl:w-9/12 flex flex-col">
         <div className="container-navigation flex items-center justify-between">
           <div className="container-logo-name-protocol flex items-center">
-            <Avatar className="w-18 md:w-32 h-18 md:h-32">
+            <Avatar className="w-12 md:w-32 h-12 md:h-32">
               <AvatarImage src={logoProtocol} />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
