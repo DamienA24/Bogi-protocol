@@ -18,7 +18,7 @@ import { Button } from "./components/ui/button";
 import walletDownload from "./assets/downloadWallet.png";
 import stampLogo from "./assets/testStamp.svg";
 import sendToken from "./assets/sendToken.png";
-import logoProtocol from "./assets/logo.svg";
+import logoProtocol from "./assets/logo2.svg";
 import telegram from "./assets/telegram.svg";
 import twitter from "./assets/twitter.svg";
 import alert from "./assets/alert.svg";
