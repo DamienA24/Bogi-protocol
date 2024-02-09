@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { useWindowSize } from "@uidotdev/usehooks";
+import { useCopyToClipboard, useWindowSize } from "@uidotdev/usehooks";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -29,6 +29,7 @@ import "./App.css";
 import { useEffect } from "react";
 
 function App() {
+  const [copiedText, copyToClipboard] = useCopyToClipboard();
   const [isScreenMobile, setIsMobile] = useState(false);
   const [open, setOpen] = useState(false);
   const size = useWindowSize();
@@ -149,7 +150,15 @@ function App() {
               </Dialog>
             </div>
             <div className="container-actions mt-10">
-              <Button className="font-poppins">COPY TOKEN ADDRESS</Button>
+              <Button
+                className="font-poppins"
+                onClick={() =>
+                  copyToClipboard("0x66deb295f1deb8b255b4041836221606b3c33ec4")
+                }
+              >
+                COPY TOKEN ADDRESS
+              </Button>
+              <p>0x66deb295f1deb8b255b4041836221606b3c33ec4</p>
             </div>
           </div>
           {isScreenMobile ? null : (
