@@ -74,6 +74,7 @@ module.exports = {
     },
     fontFamily: {
       poppins: ["Poppins"],
+      chakra: ["Chakra Petch"],
     },
   },
   plugins: [require("tailwindcss-animate")],
