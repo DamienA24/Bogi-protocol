@@ -22,8 +22,10 @@
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.8",
     "lucide-react": "^0.323.0",
+    "rc-texty": "^0.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-type-animation": "^3.2.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7"
   },
