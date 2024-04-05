@@ -196,12 +196,12 @@ function App() {
               <Button
                 className="font-poppins"
                 onClick={() =>
-                  copyToClipboard("0x66deb295f1deb8b255b4041836221606b3c33ec4")
+                  copyToClipboard("0xf7697757f8372FaEfd2Cd9Aaa6f20D62883cC377")
                 }
               >
                 COPY TOKEN ADDRESS
               </Button>
-              <p>0x66deb295f1deb8b255b4041836221606b3c33ec4</p>
+              <p>0xf7697757f8372FaEfd2Cd9Aaa6f20D62883cC377</p>
             </div>
           </div>
           {isScreenMobile ? null : (
