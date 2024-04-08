@@ -356,7 +356,7 @@ function App() {
                   </Button>
                   <Button className="font-poppins ml-10" variant="secondary">
                     <img className="mr-2 h-4 w-4" src={telegram}></img>
-                    <a href="" target="_blank">
+                    <a href="https://t.me/+krmg5sKD2uE5N2I0" target="_blank">
                       Telegram
                     </a>
                   </Button>
