@@ -196,12 +196,12 @@ function App() {
               <Button
                 className="font-poppins"
                 onClick={() =>
-                  copyToClipboard("0xf7697757f8372FaEfd2Cd9Aaa6f20D62883cC377")
+                  copyToClipboard("0xA38d0bF62e79529381e336aAb1aE807AbF65E00C")
                 }
               >
                 COPY TOKEN ADDRESS
               </Button>
-              <p>0xf7697757f8372FaEfd2Cd9Aaa6f20D62883cC377</p>
+              <p>0xA38d0bF62e79529381e336aAb1aE807AbF65E00C</p>
             </div>
           </div>
           {isScreenMobile ? null : (
@@ -225,7 +225,7 @@ function App() {
               </CardHeader>
               <CardContent>
                 <p className="font-poppins text-center">
-                  6% for rewards, 2% for Project and 2% to liquidity
+                  8% for rewards, 2% for Project and 4% to liquidity
                 </p>
               </CardContent>
             </Card>
@@ -356,7 +356,7 @@ function App() {
                   </Button>
                   <Button className="font-poppins ml-10" variant="secondary">
                     <img className="mr-2 h-4 w-4" src={telegram}></img>
-                    <a href="https://t.me/+krmg5sKD2uE5N2I0" target="_blank">
+                    <a href="https://t.me/BOGIPROTOCOL" target="_blank">
                       Telegram
                     </a>
                   </Button>
