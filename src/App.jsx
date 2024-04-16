@@ -18,10 +18,11 @@ import { Button } from "@/components/ui/button";
 import { SparklesCore } from "../components/ui/sparkles";
 
 import walletDownload from "./assets/downloadWallet.png";
-import blasterLogo from "./assets/dogHello.png";
-import dogEye from "./assets/dogEye.png";
+import blasterLogo from "./assets/shiba3.png";
+import dogEye from "./assets/shiba4.png";
 import sendToken from "./assets/sendToken.png";
-import logoProtocol from "./assets/dogLogo.png";
+import logoProtocol from "./assets/shiba.png";
+import logoFooter from "./assets/shiba5.png";
 import telegram from "./assets/telegram.svg";
 import twitter from "./assets/twitter.svg";
 import alert from "./assets/alert.svg";
@@ -84,7 +85,7 @@ function App() {
               />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
-            <h1 className="font-poppins text-2xl font-semibold ml-2">
+            <h1 className="font-pixelify text-2xl font-semibold ml-2">
               BOGIPROTOCOL
             </h1>
           </div>
@@ -97,7 +98,7 @@ function App() {
                 <DialogHeader>
                   <DialogDescription>
                     <Badge
-                      className="text-lg rounded font-poppins"
+                      className="text-lg rounded font-pixelify"
                       onClick={() => setOpen(false)}
                     >
                       <a href="#about">About</a>
@@ -105,7 +106,7 @@ function App() {
                   </DialogDescription>
                   <DialogDescription>
                     <Badge
-                      className="text-lg rounded font-poppins"
+                      className="text-lg rounded font-pixelify"
                       onClick={() => setOpen(false)}
                     >
                       <a href="#How-to-buy">How to buy</a>
@@ -113,7 +114,7 @@ function App() {
                   </DialogDescription>
                   <DialogDescription>
                     <Badge
-                      className="text-lg rounded font-poppins"
+                      className="text-lg rounded font-pixelify"
                       onClick={() => setOpen(false)}
                     >
                       <a href="#community">Community</a>
@@ -121,7 +122,7 @@ function App() {
                   </DialogDescription>
                   <DialogDescription>
                     <Badge
-                      className="text-lg rounded font-poppins"
+                      className="text-lg rounded font-pixelify"
                       onClick={() => setOpen(false)}
                     >
                       <a href="/">App (soon)</a>
@@ -132,16 +133,16 @@ function App() {
             </Dialog>
           ) : (
             <div className="container-menu flex justify-between w-2/5">
-              <Badge className="text-lg rounded font-poppins font-normal">
+              <Badge className="text-lg rounded font-pixelify font-normal">
                 <a href="#about">About</a>
               </Badge>
-              <Badge className="text-lg rounded font-poppins font-normal">
+              <Badge className="text-lg rounded font-pixelify font-normal">
                 <a href="#How-to-buy">How to buy</a>
               </Badge>
-              <Badge className="text-lg rounded font-poppins font-normal">
+              <Badge className="text-lg rounded font-pixelify font-normal">
                 <a href="#community">Community</a>
               </Badge>
-              <Badge className="text-lg rounded font-poppins font-normal">
+              <Badge className="text-lg rounded font-pixelify font-normal">
                 <a href="/">App (soon)</a>
               </Badge>
             </div>
@@ -151,7 +152,7 @@ function App() {
         <div className="container-home flex justify-center mt-40">
           <div className="container-description w-full md:w-2/5">
             <div className="container-money">
-              <h1 className="text-4xl md:text-7xl font-poppins font-bold">
+              <h1 className="text-4xl md:text-7xl font-pixelify font-bold">
                 <TypeAnimation
                   style={{
                     whiteSpace: "pre-line",
@@ -167,7 +168,7 @@ function App() {
               </h1>
             </div>
             <div className="container-intro-protocol mt-10">
-              <p className="text-xl font-poppins">
+              <p className="text-xl font-pixelify">
                 Experience BOGI Protocol's Hold to Earn (H2E) rewards feature.
                 Keeping $BOGI allows you to consistently gain $ETH rewards.
               </p>
@@ -194,7 +195,7 @@ function App() {
             </div>
             <div className="container-actions mt-10">
               <Button
-                className="font-poppins"
+                className="font-pixelify"
                 onClick={() =>
                   copyToClipboard("0xA38d0bF62e79529381e336aAb1aE807AbF65E00C")
                 }
@@ -212,19 +213,19 @@ function App() {
         </div>
 
         <div className="container-about mt-20 md:mt-40" id="about">
-          <h1 className="font-poppins font-semibold text-4xl">
+          <h1 className="font-pixelify font-semibold text-4xl">
             Exploring the $BOGI
           </h1>
 
           <div className="container-cards flex flex-col md:flex-row  justify-between mt-10">
             <Card>
               <CardHeader>
-                <CardTitle className="font-poppins text-center">
+                <CardTitle className="font-pixelify text-center">
                   Total Tax
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="font-poppins text-center">
+                <p className="font-pixelify text-center">
                   8% for rewards, 2% for Project and 4% to liquidity
                 </p>
               </CardContent>
@@ -232,12 +233,12 @@ function App() {
 
             <Card className="mt-10 md:mt-0">
               <CardHeader>
-                <CardTitle className="font-poppins text-center">
+                <CardTitle className="font-pixelify text-center">
                   Hold $BOGI {isScreenMobile ? <br /> : null} Earn $ETH
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-wrap font-poppins text-center">
+                <p className="text-wrap font-pixelify text-center">
                   Revenue from taxes is seamlessly exchanged for ETH,
                   <br />
                   benefiting all holders and reinforcing the liquidity pool.
@@ -249,12 +250,12 @@ function App() {
 
             <Card className="mt-10 md:mt-0">
               <CardHeader>
-                <CardTitle className="font-poppins text-center">
+                <CardTitle className="font-pixelify text-center">
                   Total Supply
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-wrap font-poppins text-center">
+                <p className="text-wrap font-pixelify text-center">
                   100 000 000 $BOGI <br />
                   Wallet marketing: 3 000 000 $BOGI
                 </p>
@@ -264,20 +265,20 @@ function App() {
         </div>
 
         <div className="container-buy mt-20 md:mt-40" id="How-to-buy">
-          <h1 className="font-poppins font-semibold text-4xl">How to buy</h1>
+          <h1 className="font-pixelify font-semibold text-4xl">How to buy</h1>
 
           <div className="container-cards flex flex-col md:flex-row justify-between mt-10 ">
             <Card className="w-100 md:w-96">
               <CardHeader>
                 <CardTitle>
                   <img src={walletDownload}></img>
-                  <h1 className="font-poppins mt-5 text-center">
+                  <h1 className="font-pixelify mt-5 text-center">
                     CREATE A WALLET
                   </h1>
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="font-poppins text-center">
+                <p className="font-pixelify text-center">
                   We recommend creating a wallet with{" "}
                   <a
                     href="https://www.rabby.io/"
@@ -296,11 +297,13 @@ function App() {
               <CardHeader>
                 <CardTitle>
                   <img src={sendToken}></img>
-                  <h1 className="font-poppins mt-5 text-center">DEPOSIT ETH</h1>
+                  <h1 className="font-pixelify mt-5 text-center">
+                    DEPOSIT ETH
+                  </h1>
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="font-poppins text-center">
+                <p className="font-pixelify text-center">
                   Fund Your Rabby Wallet with $ETH from the Crypto Exchange of
                   Your Choice.
                 </p>
@@ -311,11 +314,11 @@ function App() {
               <CardHeader>
                 <CardTitle>
                   <img src={trade}></img>
-                  <h1 className="font-poppins mt-5 text-center">BUY $BOGI</h1>
+                  <h1 className="font-pixelify mt-5 text-center">BUY $BOGI</h1>
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="font-poppins text-center">
+                <p className="font-pixelify text-center">
                   Acquire $BOGI Easily: Just Copy Our Contract Address and use{" "}
                   <a
                     href="https://app.uniswap.org/"
@@ -336,25 +339,25 @@ function App() {
             <div className="w-full md:w-1/2">
               <CardHeader>
                 <CardTitle>
-                  <h1 className="font-poppins mt-5 text-center text-black text-4xl">
+                  <h1 className="font-pixelify mt-5 text-center text-black text-4xl">
                     Find us Here
                   </h1>
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="font-poppins text-center text-black text-lg">
+                <p className="font-pixelify text-center text-black text-lg">
                   For the latest updates, follow BOGI Protocol on Twitter/X and
                   Telegram. Join us and be part of the Print community!
                 </p>
                 <div className="container-actions flex justify-center mt-10">
-                  <Button className="font-poppins " variant="secondary">
+                  <Button className="font-pixelify " variant="secondary">
                     <img className="mr-2 h-4 w-4" src={twitter}></img>
 
                     <a href="https://twitter.com/BOGIPROTOCOL" target="_blank">
                       Twitter
                     </a>
                   </Button>
-                  <Button className="font-poppins ml-10" variant="secondary">
+                  <Button className="font-pixelify ml-10" variant="secondary">
                     <img className="mr-2 h-4 w-4" src={telegram}></img>
                     <a href="https://t.me/BOGIPROTOCOL" target="_blank">
                       Telegram
@@ -376,7 +379,7 @@ function App() {
 
         {isScreenMobile ? null : (
           <div className="container-iframe flex flex-col justify-center mt-40">
-            <h1 className="font-poppins font-semibold text-4xl">BE FAST!</h1>
+            <h1 className="font-pixelify font-semibold text-4xl">BE FAST!</h1>
             <iframe
               id="frame"
               src="https://draw.rudyfaile.com/"
@@ -387,10 +390,10 @@ function App() {
 
         <div className="container-logo-name-protocol flex items-center mt-20">
           <Avatar className="w-20 h-20">
-            <AvatarImage src={logoProtocol} />
+            <AvatarImage src={logoFooter} />
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
-          <h1 className="font-poppins font-semibold	">BOGIPROTOCOL</h1>
+          <h1 className="font-pixelify font-semibold	">BOGIPROTOCOL</h1>
         </div>
       </div>
     </div>
