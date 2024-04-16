@@ -73,7 +73,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      poppins: ["Poppins"],
+      pixelify: ["Pixelify Sans"],
       chakra: ["Chakra Petch"],
     },
   },
