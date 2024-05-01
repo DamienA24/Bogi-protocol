@@ -192,13 +192,13 @@ function App() {
               <Button
                 className="font-pixelify relative z-50"
                 onClick={() =>
-                  copyToClipboard("0xA38d0bF62e79529381e336aAb1aE807AbF65E00C")
+                  copyToClipboard("0x4C9484FD8F1b7BF56f66f06f79258D6C0c0Fa5BB")
                 }
               >
                 COPY TOKEN ADDRESS
               </Button>
               <p className="relative z-50">
-                0xA38d0bF62e79529381e336aAb1aE807AbF65E00C
+                0x4C9484FD8F1b7BF56f66f06f79258D6C0c0Fa5BB
               </p>
             </div>
           </div>
